@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Tiger">
+  <rect width="64" height="64" rx="16" fill="#083867"/>
+  <path d="M14 20 18 8l10 9M50 20 46 8l-10 9" fill="#ff9e27" stroke="#3b241b" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M12 33c0-14 9-23 20-23s20 9 20 23c0 13-8 22-20 22S12 46 12 33Z" fill="#ffab31" stroke="#3b241b" stroke-width="3"/>
+  <path d="m20 18 5 8m-9 2 8 3m24-13-5 8m9 2-8 3M32 11v10M32 43v8" fill="none" stroke="#3b241b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M18 35c5-5 10-4 14 1 4-5 9-6 14-1-1 8-5 13-14 13s-13-5-14-13Z" fill="#fff5df"/>
+  <circle cx="24" cy="31" r="3" fill="#1f2540"/><circle cx="40" cy="31" r="3" fill="#1f2540"/>
+  <path d="M28 38q4 3 8 0-4 7-8 0Z" fill="#3b241b"/>
+</svg>
