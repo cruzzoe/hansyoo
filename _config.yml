@@ -10,7 +10,7 @@ plugins:
 languages: ["en", "ko"]
 default_lang: "en"
 exclude: ["vendor", ".bundle", "codex.init"]
-exclude_from_localizations: ["assets", "images", "en", "favicon.ico"]
+exclude_from_localizations: ["assets", "images", "favicon.ico"]
 parallel_localization: false
 sass:
   style: compressed
