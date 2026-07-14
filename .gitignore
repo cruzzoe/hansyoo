@@ -3,3 +3,5 @@ _site/
 .bundle/
 vendor/
 .sass-cache/
+Hans-*.zip
+assets/images/gallery/

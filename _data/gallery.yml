@@ -1,12 +1,22 @@
-- file: ocean-dream.svg
-  title: {en: Ocean Dream, ko: 바다의 꿈}
-- file: sunny-fish.svg
-  title: {en: Sunny Fish, ko: 햇살 물고기}
-- file: coral-party.svg
-  title: {en: Coral Party, ko: 산호 파티}
-- file: moon-jelly.svg
-  title: {en: Moon Jelly, ko: 달빛 해파리}
-- file: sea-garden.svg
-  title: {en: Sea Garden, ko: 바다 정원}
-- file: blue-whale.svg
-  title: {en: Blue Whale Song, ko: 파란 고래의 노래}
+- file: paintings/IMG_0195.jpg
+  title: {en: "Hans's Artwork 1", ko: "한스의 작품 1"}
+- file: paintings/IMG_0196.jpg
+  title: {en: "Hans's Artwork 2", ko: "한스의 작품 2"}
+- file: paintings/IMG_0197.jpg
+  title: {en: "Hans's Artwork 3", ko: "한스의 작품 3"}
+- file: paintings/IMG_0198.jpg
+  title: {en: "Hans's Artwork 4", ko: "한스의 작품 4"}
+- file: paintings/IMG_0199.jpg
+  title: {en: "Hans's Artwork 5", ko: "한스의 작품 5"}
+- file: paintings/IMG_0200.jpg
+  title: {en: "Hans's Artwork 6", ko: "한스의 작품 6"}
+- file: paintings/IMG_0201.jpg
+  title: {en: "Hans's Artwork 7", ko: "한스의 작품 7"}
+- file: paintings/IMG_0202.jpg
+  title: {en: "Hans's Artwork 8", ko: "한스의 작품 8"}
+- file: paintings/IMG_0203.jpg
+  title: {en: "Hans's Artwork 9", ko: "한스의 작품 9"}
+- file: paintings/IMG_0204.jpg
+  title: {en: "Hans's Artwork 10", ko: "한스의 작품 10"}
+- file: paintings/IMG_0205.jpg
+  title: {en: "Hans's Artwork 11", ko: "한스의 작품 11"}
