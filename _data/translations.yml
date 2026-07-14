@@ -1,0 +1,40 @@
+en:
+  nav: {home: Home, about: About Me, gallery: Gallery}
+  toggle: 한국어
+  home:
+    eyebrow: Hans Yoo's Underwater Studio
+    title: Welcome to my colorful ocean!
+    text: Hi! I'm Hans. I love painting bright worlds, friendly creatures, and all the amazing things I imagine.
+    button: Dive into my gallery
+  about:
+    eyebrow: A little deep dive
+    title: Hello, I’m Hans!
+    intro: I’m a 9-year-old artist from Korea. I paint whenever an idea swims into my head!
+    facts:
+      - {icon: "🎨", title: "My favorite thing", text: "Mixing surprising colors together."}
+      - {icon: "✨", title: "My inspiration", text: "Animals, adventures, and funny dreams."}
+      - {icon: "🌊", title: "My superpower", text: "Turning a blank page into a new world."}
+  gallery:
+    eyebrow: The art tank
+    title: My painting gallery
+    intro: Tap a picture to make a big splash and see it up close.
+ko:
+  nav: {home: 홈, about: 나를 소개해요, gallery: 갤러리}
+  toggle: English
+  home:
+    eyebrow: 한스 유의 바닷속 스튜디오
+    title: 나의 알록달록 바다에 온 걸 환영해요!
+    text: 안녕! 나는 한스야. 반짝이는 세상, 다정한 친구들, 그리고 내가 상상하는 모든 것을 그리는 걸 좋아해.
+    button: 갤러리로 풍덩!
+  about:
+    eyebrow: 한스를 더 알아볼까요
+    title: 안녕, 나는 한스야!
+    intro: 나는 한국에 사는 9살 꼬마 화가야. 머릿속에 재미있는 생각이 떠오르면 언제든 그림을 그려!
+    facts:
+      - {icon: "🎨", title: "내가 가장 좋아하는 것", text: "신기하고 새로운 색을 섞어 보는 것."}
+      - {icon: "✨", title: "나의 영감", text: "동물, 모험, 그리고 재미있는 꿈."}
+      - {icon: "🌊", title: "나의 초능력", text: "하얀 종이를 새로운 세상으로 만드는 것."}
+  gallery:
+    eyebrow: 작품 수족관
+    title: 나의 그림 갤러리
+    intro: 그림을 누르면 크게 볼 수 있어요. 풍덩!

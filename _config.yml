@@ -1,0 +1,21 @@
+title: Hans Yoo's Underwater Studio
+description: A colorful underwater gallery of paintings by Hans Yoo.
+url: "https://cruzzoe.github.io"
+baseurl: "/hansyoo"
+lang: en
+timezone: Asia/Seoul
+plugins:
+  - jekyll-seo-tag
+  - jekyll-polyglot
+languages: ["en", "ko"]
+default_lang: "en"
+exclude: ["vendor", ".bundle", "codex.init"]
+exclude_from_localizations: ["assets", "images", "favicon.ico"]
+parallel_localization: false
+sass:
+  style: compressed
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
