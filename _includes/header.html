@@ -1,5 +1,11 @@
 {% assign t = site.data.translations[site.active_lang] %}
 <header class="site-header"><a class="logo" href="{{ '/' | relative_url }}">Hans <span>Yoo</span></a>
 <nav aria-label="Main navigation"><a href="{{ '/' | relative_url }}">{{ t.nav.home }}</a><a href="{{ '/about/' | relative_url }}">{{ t.nav.about }}</a><a href="{{ '/gallery/' | relative_url }}">{{ t.nav.gallery }}</a></nav>
-{% if site.active_lang == 'ko' %}{% assign target_lang = 'en' %}{% else %}{% assign target_lang = 'ko' %}{% endif %}
-<a class="language-bubble" data-lang-toggle href="{{ site.baseurl }}/{{ target_lang }}{{ page.url }}">{{ t.toggle }}</a></header>
+{% if site.active_lang == 'ko' %}
+  {% assign english_url = page.url | remove_first: '/ko' %}
+  <a class="language-bubble" data-lang-toggle {% static_href %}href="{{ site.baseurl }}{{ english_url }}"{% endstatic_href %}>{{ t.toggle }}</a>
+{% else %}
+  {% assign korean_url = '/ko' | append: page.url %}
+  <a class="language-bubble" data-lang-toggle {% static_href %}href="{{ site.baseurl }}{{ korean_url }}"{% endstatic_href %}>{{ t.toggle }}</a>
+{% endif %}
+</header>
