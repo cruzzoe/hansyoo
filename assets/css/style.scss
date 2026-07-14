@@ -6,3 +6,4 @@ $ink: #f6fcff; $navy: #06234d; $teal: #079cac; $pink: #ff8ab1;
 .hero-art .hero-fish{width:min(64%,220px);height:auto;top:24%;left:22%;transform:scaleX(-1);animation:swim-left 5s ease-in-out infinite;filter:drop-shadow(0 12px 10px #03234f88)}
 @keyframes swim-left{50%{transform:scaleX(-1) translate(-12px,-8px) rotate(-3deg)}}
 @media(max-width:720px){.hero-art .hero-fish{width:min(64%,180px);top:22%;left:20%}}
+.award-date{margin:.2rem 0 .45rem!important;color:#0c8495;font-weight:700;font-size:.88rem}

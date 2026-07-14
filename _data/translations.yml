@@ -1,5 +1,5 @@
 en:
-  nav: {home: Home, about: About Me, gallery: Gallery}
+  nav: {home: Home, about: About Me, gallery: Gallery, awards: Awards}
   toggle: 한국어
   home:
     eyebrow: Hans Yoo's Underwater Studio
@@ -18,8 +18,16 @@ en:
     eyebrow: The art tank
     title: My painting gallery
     intro: Tap a picture to make a big splash and see it up close.
+  awards:
+    eyebrow: A treasure chest of stars
+    title: Awards & happy moments
+    note: These are sample awards for now—real achievements will appear here soon.
+    items:
+      - {icon: "🏆", date: "June 2026", title: "Grand Gold — Young Ocean Artists Prize", text: "Celebrated for a joyful painting full of color and imagination."}
+      - {icon: "🌟", date: "November 2025", title: "Rising Star — Seoul Junior Art Salon", text: "Recognized for bold storytelling and a wonderfully original style."}
+      - {icon: "🎖️", date: "April 2025", title: "People’s Choice — Little Masters Exhibition", text: "A favorite with visitors for its bright, friendly world."}
 ko:
-  nav: {home: 홈, about: 나를 소개해요, gallery: 갤러리}
+  nav: {home: 홈, about: 나를 소개해요, gallery: 갤러리, awards: 수상 내역}
   toggle: English
   home:
     eyebrow: 한스 유의 바닷속 스튜디오
@@ -38,3 +46,11 @@ ko:
     eyebrow: 작품 수족관
     title: 나의 그림 갤러리
     intro: 그림을 누르면 크게 볼 수 있어요. 풍덩!
+  awards:
+    eyebrow: 반짝이는 별 보물상자
+    title: 수상 내역과 기쁜 순간들
+    note: 지금은 예시 수상 내역이에요. 진짜 멋진 성과가 생기면 여기에 기록할게요.
+    items:
+      - {icon: "🏆", date: "2026년 6월", title: "대상 — 어린이 바다 예술상", text: "색과 상상력이 가득한 즐거운 그림으로 받은 상이에요."}
+      - {icon: "🌟", date: "2025년 11월", title: "라이징 스타 — 서울 주니어 아트 살롱", text: "대담한 이야기와 아주 특별한 화풍을 인정받았어요."}
+      - {icon: "🎖️", date: "2025년 4월", title: "관람객 인기상 — 리틀 마스터즈 전시", text: "밝고 다정한 그림 세계로 관람객의 사랑을 받았어요."}
