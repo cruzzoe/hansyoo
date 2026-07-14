@@ -1,6 +1,11 @@
 en:
   nav: {home: Home, about: About Me, gallery: Gallery, awards: Awards}
   toggle: 한국어
+  seo:
+    home: {title: "Hans Yoo | Young Artist's Underwater Studio", description: "Explore Hans Yoo's colorful paintings of underwater worlds, friendly creatures, and imaginative adventures."}
+    about: {title: "About Hans Yoo | Young Artist from Korea", description: "Meet Hans Yoo, a young Korean artist inspired by animals, adventures, and bright, imaginative colors."}
+    gallery: {title: "Hans Yoo Painting Gallery | Colorful Young Artist", description: "View Hans Yoo's colorful original paintings and imaginative artwork."}
+    awards: {title: "Awards & Moments | Hans Yoo", description: "Discover Hans Yoo's awards, milestones, and happy artistic moments."}
   home:
     eyebrow: Hans Yoo's Underwater Studio
     title: Welcome to my colorful ocean!
@@ -29,6 +34,11 @@ en:
 ko:
   nav: {home: 홈, about: 나를 소개해요, gallery: 갤러리, awards: 수상 내역}
   toggle: English
+  seo:
+    home: {title: "한스 유 | 바닷속 어린이 화가 스튜디오", description: "한스 유가 그린 알록달록한 바닷속 세상과 다정한 친구들, 상상 가득한 그림을 만나 보세요."}
+    about: {title: "한스 유 소개 | 한국의 어린이 화가", description: "동물과 모험, 밝고 재미있는 색에서 영감을 얻는 어린이 화가 한스 유를 소개합니다."}
+    gallery: {title: "한스 유 그림 갤러리 | 알록달록한 어린이 미술", description: "한스 유의 다채로운 원화와 상상력 가득한 작품을 감상해 보세요."}
+    awards: {title: "수상 내역과 기쁜 순간 | 한스 유", description: "한스 유의 수상 내역과 특별한 예술의 순간을 만나 보세요."}
   home:
     eyebrow: 한스 유의 바닷속 스튜디오
     title: 나의 알록달록 바다에 온 걸 환영해요!

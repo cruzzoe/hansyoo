@@ -1,12 +1,17 @@
 title: Hans Yoo's Underwater Studio
 description: A colorful underwater gallery of paintings by Hans Yoo.
-url: "https://hans-yoo.example.com"
-baseurl: "/hansyoo"
+url: "https://hansyoo.com"
+baseurl: ""
 lang: en
 timezone: Asia/Seoul
+author:
+  name: Hans Yoo
+logo: /assets/images/tiger-favicon.svg
+social:
+  name: Hans Yoo
+  links: []
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-polyglot
 languages: ["en", "ko"]
 default_lang: "en"

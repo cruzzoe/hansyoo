@@ -19,7 +19,7 @@ jobs:
         with:
           ruby-version: "3.3"
           bundler-cache: true
-      - run: bundle exec jekyll build --baseurl "${{ github.event.repository.name == 'hansyoo' && '/hansyoo' || '' }}"
+      - run: bundle exec jekyll build
       - uses: ./.github/actions/upload-pages-artifact
         with: {path: ./_site}
   deploy:

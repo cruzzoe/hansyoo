@@ -2,8 +2,31 @@
 <html lang="{{ site.active_lang | default: site.lang }}">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  {% assign lang = site.active_lang | default: site.lang %}
+  {% assign t = site.data.translations[lang] %}
+  {% assign page_key = page.page_key | default: 'home' %}
+  {% assign seo = t.seo[page_key] %}
+  {% if lang == 'ko' %}
+    {% assign english_path = page.url | remove_first: '/ko' %}
+    {% assign korean_path = page.url %}
+  {% else %}
+    {% assign english_path = page.url %}
+    {% assign korean_path = '/ko' | append: page.url %}
+  {% endif %}
+  {% assign canonical_path = page.url %}
+  <title>{{ seo.title | default: site.title | escape }}</title>
+  <meta name="description" content="{{ seo.description | default: site.description | escape }}">
+  <link rel="canonical" href="{{ site.url }}{{ canonical_path }}">
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ english_path }}">
+  <link rel="alternate" hreflang="ko" href="{{ site.url }}{{ korean_path }}">
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ english_path }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:locale" content="{% if lang == 'ko' %}ko_KR{% else %}en_US{% endif %}">
+  <meta property="og:title" content="{{ seo.title | default: site.title | escape }}">
+  <meta property="og:description" content="{{ seo.description | default: site.description | escape }}">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" href="{{ '/assets/images/tiger-favicon.svg' | relative_url }}" type="image/svg+xml">
-  {% seo %}
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
