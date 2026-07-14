@@ -28,4 +28,5 @@ jobs:
     environment: {name: github-pages, url: "${{ steps.deployment.outputs.page_url }}"}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        # deploy-pages v4 currently targets Node 20. This pinned upstream commit targets Node 24.
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128
