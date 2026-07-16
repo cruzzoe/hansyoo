@@ -7,6 +7,9 @@ $ink: #f6fcff; $navy: #06234d; $teal: #079cac; $pink: #ff8ab1;
 @keyframes swim-left{50%{transform:scaleX(-1) translate(-12px,-8px) rotate(-3deg)}}
 @media(max-width:720px){.hero-art .hero-fish{width:min(64%,180px);top:22%;left:20%}}
 .award-date{margin:.2rem 0 .45rem!important;color:#0c8495;font-weight:700;font-size:.88rem}
+.awards-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.awards-grid .fact-bubble{min-height:270px;border-radius:32px;padding:32px}
+.awards-grid .fact-bubble h2{font-size:clamp(1.25rem,2.4vw,1.65rem);overflow-wrap:anywhere}
 
 .about-portrait{flex:0 0 190px;margin:0;padding:9px;background:#fffbf4;border:2px solid #ffffffa8;border-radius:48% 52% 45% 55%/52% 43% 57% 48%;box-shadow:0 12px 20px #001d424d;transform:rotate(-3deg)}
 .about-portrait img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center;border-radius:46% 54% 48% 52%/54% 46% 54% 46%}
