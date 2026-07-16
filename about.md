@@ -5,7 +5,9 @@ permalink: /about/
 ---
 
 <section class="about-card reveal">
-  <div class="avatar-fish" aria-hidden="true">🐠</div>
+  <figure class="about-portrait">
+    <img src="{{ '/assets/images/hans-sketching.jpg' | relative_url }}" alt="Hans sketching.">
+  </figure>
   <div>
     <p class="eyebrow">{{ site.data.translations[site.active_lang].about.eyebrow }}</p>
     <h1>{{ site.data.translations[site.active_lang].about.title }}</h1>
